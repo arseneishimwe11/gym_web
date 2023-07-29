@@ -20,7 +20,8 @@ export default {
       },
       fontFamily:{
         fugaz: ['Fugaz One', 'cursive'],
-        convergence:['Convergence', 'sans-serif']
+        convergence:['Convergence', 'sans-serif'],
+        farsan:['Farsan', 'cursive']
       }
     },
   },

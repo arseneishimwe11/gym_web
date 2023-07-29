@@ -6,7 +6,7 @@ import landing_bg from "../src/assets/landing_bg.png";
 const LandingPage = () => {
   return (
     <div className="bg-landing-bg h-screen">
-      <div className="trimmed-part bg-trim h-[100vh] w-[44.28%] absolute left-[44em] overflow-hidden z-1"></div>
+      <div className="trimmed-part bg-trim h-[100vh] w-[44.2%] absolute left-[44em] overflow-hidden z-1"></div>
       <HeaderNav />
       <div className="text-white p-[30px]">
         <div>

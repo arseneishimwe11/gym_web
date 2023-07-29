@@ -31,7 +31,7 @@ const Footer = () => {
             </p>
           </form>
         </div>
-        <div className="flex font-convergence pt-[40px] text-[15px]">
+        <div className="flex font-farsan pt-[40px] text-[20px]">
           <div>
             <p className="underline pb-2">Follow Us on:</p>
             <div className="flex">
@@ -50,7 +50,7 @@ const Footer = () => {
               <p className="mt-1">+250788318524</p>
             </div>
             <div className="flex pt-3">
-              <img src={email} alt="Email" className="w-[10%]" />
+              <img src={email} alt="Email" className="w-[13%]" />
               platinumgymkigali@gmail.com
               <br />
               admin@platinumgymkigali.com
