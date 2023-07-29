@@ -9,3 +9,10 @@
 .empower-txt{
   -webkit-text-stroke:1px rgb(235, 137, 9);
 }
+
+.dream-body{
+  -webkit-text-stroke:1px white;
+}
+.li{
+  line-height: 35px;
+}

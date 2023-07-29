@@ -4,7 +4,7 @@ import "../index.css";
 
 const HeaderNav = () => {
   return (
-    <div className="flex w-[100vw] text-white gap-[470px] relative z-10 font-convergence py-3 px-[50px]">
+    <div className="flex w-[100vw] text-white gap-[470px] fixed z-10 font-convergence py-3 px-[50px]">
       <img src={Logo} alt="Platinum Gym Logo" className="w-[12%]" />
       <div className="">
         <a href="#" className="mr-[50px] focus:text-page-orange">
@@ -19,7 +19,7 @@ const HeaderNav = () => {
         <a href="#" className="mr-[50px] focus:text-page-orange ">
           Pricing
         </a>
-        <button className="text-black bg-white pt-[1px] pb-[3px] px-[15px] rounded-[5px] ">
+        <button className="text-black bg-white pt-[1px] pb-[3px] px-[15px] rounded-[5px] hover:text-white hover:bg-page-orange">
           Register Now
         </button>
       </div>
