@@ -25,7 +25,7 @@ const Login = () => {
       // }
 
       const response = await axios.post(
-        "http://localhost:5173/auth/signup",
+        "http://localhost:3000/auth/login",
         {
           phone: input.phone,
           password: input.password,
@@ -77,7 +77,7 @@ const Login = () => {
           Welcome to Platinum Gym
         </p>
         <p className="font-convergence text-[30px] text-center py-3 font-bold text-gray-800">LOGIN</p>
-        <form onSubmit={(e)=>{e.preventDefault}} className="text-center">
+        <form onSubmit={(e)=>{e.preventDefault()}} className="text-center">
           <div>
             <input
               type="number"
@@ -104,6 +104,7 @@ const Login = () => {
               type="submit"
               id="submit"
               value="Log In"
+              onClick={()=>addUser()}
               className="bg-page-orange py-[6px] px-[153px] rounded-[5px] text-[20px] mt-5 font-bold text-white"
             />
           </div>

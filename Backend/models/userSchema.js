@@ -2,7 +2,6 @@
   const sequelize = require('./dbConnection');
 
   const User = sequelize.define('User', {
-    // Define the attributes (columns) of the table
     id: {
       type: DataTypes.INTEGER,
       primaryKey: true,
