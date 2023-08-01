@@ -13,7 +13,7 @@ require('./models/dbConnection')
 app.use(cors());
 app.use(express.json())
 app.use(authRoutes);
-// app.use('/payments/momo', momoPayRoutes);
+app.use(momoPayRoutes);
 // app.use('/payments/paypal', payPalRoutes);
 // app.use('/payments/creditpay', bankTransferRoutes);
 

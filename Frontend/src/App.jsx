@@ -6,6 +6,8 @@ import Login from "../pages/members/login";
 import Home from "../pages/Home";
 import Homefeed from "../pages/members/Homefeed";
 import Plan from "../pages/members/plan";
+import MomoPaymentForm from "../pages/members/momoPaymentForm";
+import PayPalPaymentForm from "../pages/members/paypalPayment";
 
 const App = () => {
   return (
@@ -17,6 +19,8 @@ const App = () => {
           <Route path="/auth/login" element={<Login />} />
           <Route path="/profile" element={<Homefeed />} />
           <Route path="/yourplan" element={<Plan />} />
+          <Route path="/payment/momo" element={<MomoPaymentForm />} />
+          <Route path="/payment/paypal" element={<PayPalPaymentForm />} />
         </Routes>
       </Router>
     </div>
